@@ -1,0 +1,131 @@
+[
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getExchangeRates",
+    "parameters": {}
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getReserveLiquidityRate",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getNetWorth",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData",
+    "parameters": { "currency": "Celo" }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/activeUsers",
+    "parameters": {}
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/totalDeposited",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/totalBorrowed",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/total-activeUser-deposited-borrowed",
+    "parameters": { "currency": "cEUR" }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/balance",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/deposit",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/activity",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "pageNo": "0",
+      "pageSize": "1"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/riskData",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/borrow",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/debt",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "currency": "Celo"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/max",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "activityType": "deposit"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/status",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getFee",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "activityType": "borrow",
+      "amount": "40.0",
+      "currency": "cEUR"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getLiquidationPrice",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getMooTokenHolder",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getExchangeRates/nearestPastValue",
+    "parameters": {
+      "inAmount": "10",
+      "inBlockNo": "5000",
+      "inCurrency": "Celo",
+      "outCurrency": "cUSD"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getUserReserveData",
+    "parameters": {
+      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "currency": "cUSD"
+    }
+  }
+]
