@@ -1,12 +1,13 @@
 import pandas
 import json
+from datetime import datetime
 
 
 def parse_url(url: str):
     """
     Parse the url and return the hostname and the path
     """
-    user_public_key = "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+    user_public_key = "ffd343a7f20093e9bcefe45af552c1718059329e"
     split_url = url.split("?")
     root_url = split_url[0]
     parameters = None
@@ -25,11 +26,12 @@ def parse_url(url: str):
     return json_url
 
 
-url_csv_df = pandas.read_csv("../csvs/Moola V2 mainnet API Testing - Moola-Api.csv")
+url_csv_df = pandas.read_csv("../csvs/moola-api-2021-10-14_18:55:31.csv")
 
 json_urls = []
-for url in url_csv_df["Mainnet test"]:
+for url in url_csv_df["Alfajores test"]:
     if isinstance(url, str):
         json_urls.append(parse_url(url))
 
-json.dump(json_urls, open("../jsons/urls.json", "w"))
+now = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+json.dump(json_urls, open(f"../jsons/urls-{now}.json", "w"))

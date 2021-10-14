@@ -1,5 +1,6 @@
 import requests
 import json
+from datetime import datetime
 
 
 class Bcolors:
@@ -14,7 +15,7 @@ class Bcolors:
     UNDERLINE = "\033[4m"
 
 
-api_urls_with_parameters = json.load(open("../jsons/urls.json"))
+api_urls_with_parameters = json.load(open("../jsons/urls-2021-10-14_19:00:09.json"))
 
 
 def colored_status(status: str):
@@ -31,7 +32,8 @@ def build_url(url: str, parameters: dict):
     return url + "?" + "&".join([f"{key}={value}" for key, value in parameters.items()])
 
 
-with open("../reports/api_urls.txt", "w") as f:
+now = datetime.now().strftime("%Y-%m-%d")
+with open(f"../reports/api_urls-{now}.txt", "w") as f:
     for i, api_url_with_parameter in enumerate(api_urls_with_parameters):
         response = requests.get(
             api_url_with_parameter["url"], params=api_url_with_parameter["parameters"]
