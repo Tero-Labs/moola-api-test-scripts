@@ -7,7 +7,7 @@ def parse_url(url: str):
     """
     Parse the url and return the hostname and the path
     """
-    user_public_key = "ffd343a7f20093e9bcefe45af552c1718059329e"
+    user_public_key = "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     split_url = url.split("?")
     root_url = split_url[0]
     parameters = None
