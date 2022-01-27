@@ -15,7 +15,7 @@ class Bcolors:
     UNDERLINE = "\033[4m"
 
 
-api_urls_with_parameters = json.load(open("../jsons/urls-2021-10-14_19:00:09.json"))
+api_urls_with_parameters = json.load(open("../jsons/urls.json"))
 
 
 def colored_status(status: str):

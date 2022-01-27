@@ -6,13 +6,13 @@
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getReserveLiquidityRate",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getNetWorth",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
@@ -26,13 +26,13 @@
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/totalDeposited",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/totalBorrowed",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
@@ -42,19 +42,19 @@
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/balance",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/deposit",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/activity",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
       "pageNo": "0",
       "pageSize": "1"
     }
@@ -62,39 +62,39 @@
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/riskData",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/borrow",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/debt",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
       "currency": "Celo"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/max",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
       "activityType": "deposit"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/status",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getFee",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
       "activityType": "borrow",
       "amount": "40.0",
       "currency": "cEUR"
@@ -103,13 +103,19 @@
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getLiquidationPrice",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getMooTokenHolder",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb"
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+    }
+  },
+  {
+    "url": "https://v2-mooapi.herokuapp.com/get/getCeloTokenHolder",
+    "parameters": {
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
     }
   },
   {
@@ -124,7 +130,7 @@
   {
     "url": "https://v2-mooapi.herokuapp.com/get/getUserReserveData",
     "parameters": {
-      "userPublicKey": "f6ededceff0bc515506a55cbb487c900ac19cbfb",
+      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
       "currency": "cUSD"
     }
   }
