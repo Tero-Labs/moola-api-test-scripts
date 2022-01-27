@@ -38,20 +38,21 @@ with open(f"../reports/api_urls-{now}.txt", "w") as f:
         response = requests.get(
             api_url_with_parameter["url"], params=api_url_with_parameter["parameters"]
         )
+        elapsed_time = response.elapsed.total_seconds()
         print(f"Serial No: {i+1}")
         if response.status_code < 400:
             status = colored_status("OK")
             response_json = response.json()
             response_status = response_json["status"]
             print(
-                f"{get_column_name('url')}: {response.url}\n{get_column_name('status code')}: {response.status_code}\n{get_column_name('status')}: {colored_status(response_json['status'])}\n"
+                f"{get_column_name('url')}: {response.url}\n{get_column_name('elapsed time')}: {elapsed_time}\n{get_column_name('status code')}: {response.status_code}\n{get_column_name('status')}: {colored_status(response_json['status'])}\n"
             )
             # f.write(
             #     f"{response.url} status code: {response.status_code} status: {response_status}\n {response_json}\n\n"
             # )
         else:
             print(
-                f"{get_column_name('url')}: {response.url}\n{get_column_name('status code')}: {response.status_code}\nstatus: {colored_status('FAILED')}\n"
+                f"{get_column_name('url')}: {response.url}\n{get_column_name('elapsed time')}: {elapsed_time}\n{get_column_name('status code')}: {response.status_code}\n{get_column_name('status')}: {colored_status('FAILED')}\n"
             )
             f.write(f"Serial No: {i+1}" + "\n")
             f.write(
