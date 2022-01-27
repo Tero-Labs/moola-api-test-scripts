@@ -27,7 +27,7 @@ This repository contains automated test script for moola api endpoints.
 
     ```bash
     cd scripts
-    python moola_api_test.py
+    python test_apis.py
     ```
 
-5. Any failing api will be printed to stdout and a report will be generated under `reports` directory
+5. Any failing api will be printed to stdout and a report will be generated under `reports` directory for the failing apis
