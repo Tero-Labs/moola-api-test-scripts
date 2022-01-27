@@ -1,125 +1,125 @@
 [
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getExchangeRates",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getExchangeRates",
     "parameters": {}
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getReserveLiquidityRate",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getReserveLiquidityRate",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getNetWorth",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getNetWorth",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getReserveData",
     "parameters": { "currency": "Celo" }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/activeUsers",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getReserveData/activeUsers",
     "parameters": {}
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/totalDeposited",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getReserveData/totalDeposited",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/totalBorrowed",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getReserveData/totalBorrowed",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getReserveData/total-activeUser-deposited-borrowed",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getReserveData/total-activeUser-deposited-borrowed",
     "parameters": { "currency": "cEUR" }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/balance",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/balance",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/deposit",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/deposit",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/activity",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/activity",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b",
       "pageNo": "0",
       "pageSize": "1"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/riskData",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/riskData",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/borrow",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/borrow",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/debt",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/debt",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b",
       "currency": "Celo"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/max",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/max",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b",
       "activityType": "deposit"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserAccountInfo/status",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserAccountInfo/status",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getFee",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getFee",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b",
       "activityType": "borrow",
       "amount": "40.0",
       "currency": "cEUR"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getLiquidationPrice",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getLiquidationPrice",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getMooTokenHolder",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getMooTokenHolder",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getCeloTokenHolder",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getCeloTokenHolder",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36"
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b"
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getExchangeRates/nearestPastValue",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getExchangeRates/nearestPastValue",
     "parameters": {
       "inAmount": "10",
       "inBlockNo": "5000",
@@ -128,9 +128,9 @@
     }
   },
   {
-    "url": "https://v2-mooapi.herokuapp.com/get/getUserReserveData",
+    "url": "https://moola-v2-py-api.universalmachine.io/get/getUserReserveData",
     "parameters": {
-      "userPublicKey": "dEdfe7c341ffcB43C26bdb17d6A59C2317907f36",
+      "userPublicKey": "fb557ea1e7a4da106aff8db5c4a631cfc726e01b",
       "currency": "cUSD"
     }
   }
