@@ -13,7 +13,7 @@ This repository contains automated test script for moola api endpoints.
 2. Create virtual environment and activate it
 
     ```bash
-    virtualenv venv
+    python -m venv venv
     source venv/bin/activate
     ```
 
